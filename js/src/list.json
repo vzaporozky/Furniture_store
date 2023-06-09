@@ -1,0 +1,49 @@
+{
+    "list": [
+            { "name": "little sofa",
+                "price": 23,
+                "company": "ikea",
+                "img": "../images/elements/1.jpeg"
+            },
+            { "name": "chair",
+                "price": 32,
+                "company": "ikea",
+                "img": "../images/elements/2.jpeg"
+            },
+            { "name": "big sofa",
+                "price": 11,
+                "company": "ikea",
+                "img": "../images/elements/3.jpeg"
+            },
+            { "name": "gold sofa",
+                "price": 25,
+                "company": "kartell",
+                "img": "../images/elements/4.webp"
+            },
+            { "name": "white sofa",
+                "price": 22,
+                "company": "kartell",
+                "img": "../images/elements/5.jpg"
+            },
+            { "name": "grey sofa",
+                "price": 39,
+                "company": "kartell",
+                "img": "../images/elements/6.jpg"
+            },
+            { "name": "rack",
+                "price": 45,
+                "company": "ashley",
+                "img": "../images/elements/7.jpeg"
+            },
+            { "name": "grey chair",
+                "price": 49,
+                "company": "ashley",
+                "img": "../images/elements/8.webp"
+            },
+            { "name": "dark chair",
+                "price": 31,
+                "company": "ashley",
+                "img": "../images/elements/9.webp"
+            }
+        ]
+}

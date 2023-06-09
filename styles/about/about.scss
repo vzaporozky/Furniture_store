@@ -1,0 +1,26 @@
+.about__links {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    background-color: rgb(225, 223, 223);
+    padding: 30px;
+}
+.links__title {
+    color: rgb(111, 111, 111);
+}
+.about__main {
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.about__title {
+    color: black;
+    text-align: center;
+
+    span {
+        color: rgb(188, 81, 14);
+    }
+}
+.about__text {
+    color: rgb(111, 111, 111);
+}

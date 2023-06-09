@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+
+.wrapper__bag {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 98.9vw;
+    min-height: 100%;
+    background-color: rgba(153, 153, 153, 0.6);
+    display: flex;
+    justify-content: end;
+}
+.menu__bag {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+}
+.menu__bag_close {
+    font-family: "Lilita One", cursive;
+    font-size: 2rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+.menu__bag_title {
+    margin-top: 10px;
+    text-align: center;
+}
+.menu__bag_clear {
+    background: none;
+    border: none;
+    font-size: 1.3rem;
+    color: rgb(161, 161, 161);
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        color: rgb(0, 0, 0);
+    }
+}
+.menu__bag_list {
+    margin-top: 20px;
+    flex-grow: 1;
+}
+.menu__bag_item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.bag__item_img {
+    width: 60px;
+}
+.bag__item_remove {
+    background: none;
+    border: none;
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+    padding: 0;
+    transition: 0.3s;
+
+    &:hover {
+        color: rgb(0, 0, 0);
+    }
+}
+.bag__item_counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bag__item_btn {
+    color: rgb(189, 83, 7);
+    cursor: pointer;
+}
+.bag__item_amount {
+    text-align: center;
+}
+
+.menu__bag_result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+.menu__bag_checkout {
+    color: white;
+    background-color: rgb(189, 83, 7);
+    border: none;
+    width: 70%;
+    margin-top: 20px;
+}

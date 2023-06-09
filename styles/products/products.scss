@@ -1,0 +1,60 @@
+.main__products {
+    padding: 0px 10px 10px 10px;
+    margin-top: 30px;
+    display: flex;
+}
+.products__filter_block {
+    color: black;
+}
+.products__search {
+    background-color: rgb(225, 223, 223);
+    border: none;
+    padding: 5px;
+    margin-top: 20px;
+}
+.products__company_title {
+    margin-top: 20px;
+}
+
+.products__company {
+    margin-top: 5px;
+}
+.products__company_checkbox {
+    cursor: pointer;
+}
+.products__company_counter {
+    color: rgb(189, 86, 1);
+}
+.products__price_title {
+    margin-top: 20px;
+}
+////////////////////////////////////////////////////////////////////////
+.products__elements {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin-left: 20px;
+    color: black;
+}
+.products__element {
+    margin-top: 20px;
+    padding-bottom: 5px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgb(50, 50, 50);
+}
+.element__description {
+    border-top: 1px solid black;
+}
+.element__buy {
+    background-color: rgb(189, 86, 1);
+    color: white;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgb(255, 115, 0);
+    }
+}
